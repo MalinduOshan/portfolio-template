@@ -1,0 +1,425 @@
+/* Body and Background Image */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue background */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: ; /* Semi-transparent blue */
+}
+
+.services h3 {
+    font-size: 2.5em;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.service-card {
+    width: 250px;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #161618;
+}
+
+.portfolio h3 {
+    font-size: 2.5em;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.portfolio-item {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Optional: Adds a blurred effect behind the item */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    color: white; /* Ensure text remains readable */
+}
+
+
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.testimonial-card {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(0, 123, 255, 0.8);
+}
+
+.cta h3 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.cta p {
+    font-size: 1.2em;
+    color: white;
+    margin: 20px 0;
+}
+
+.cta button {
+    padding: 15px 25px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: #003f6a;
+}
+
+/* Footer Section */
+footer {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+/* About Page Styles */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('images/about-background.jpg'); /* Add the path to your background image here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #f0f0f0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for better text visibility */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-details li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.about-details li strong {
+    color: #007bff;
+}
+
+.my-journey,
+.philosophy {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight white background for these sections */
+    padding: 30px 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.my-journey h3,
+.philosophy h3 {
+    font-size: 2em;
+    color: #007bff;
+}
+
+.my-journey p,
+.philosophy p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+/* Body and Background Image */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background color */
+}
+
+/* Header Styles */
+header {
+    background-color: transparent; /* No background color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Services Section with Background Image */
+.services {
+    padding: 50px 20px;
+    background-image: url('images/your-background.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    color: white; /* Text color for readability */
+    text-align: center;
+    min-height: 100vh; /* Ensure the section covers the full height of the page */
+}
+
+/* Services Heading */
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Service Cards Container */
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Service Card */
+.service-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1;
+    min-width: 280px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.service-card img {
+    width: 80px; /* Adjust image size */
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+/* Service Card List */
+.service-card ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.service-card li {
+    margin-bottom: 10px;
+}
+
+/* Service Card Button */
+.service-card button {
+    background-color: #03c934;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.service-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    color: rgb(250, 250, 250);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-card h3 {
+        font-size: 1.5em;
+    }
+
+    .service-card ul {
+        font-size: 1em;
+    }
+
+    .service-card button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+/* Locate the CSS class for the overlay */
+.overlay {
+    background-color: transparent; /* Remove the blue color */
+}
+
+/* If there's no class like "overlay," update the general background */
+.container {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the entire area */
+}
